@@ -9,6 +9,9 @@ const app = express();
 //     clientSecret: GOOGLE_CLIENT_SECRET,
 // }))
 
+app.get('/',function(req,res){
+    res.send({hi:'sdf'})
+})
 
 
 const PORT = process.env.PORT || 5000;
